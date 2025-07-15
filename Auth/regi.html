@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="regi.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title">Blog App</title>
+</head>
+<body>
+    <h1>Welcome to Blog App</h1>
+    <p>Please register</p>
+    <input type="text" id="username" placeholder="Enter your name" required="true">
+    <br>
+    <input type="text" id="password" placeholder="Enter your password" required="true">
+    <br>
+    <select id="role">
+        <option value="user">Auth</option>
+        <option value="admin">Admin</option>
+    </select>
+    <br>
+    <button onclick="register()">Register</button>
+    <p>Already have an account? <a href="auth.html">Login here</a></p>
+    <script src="regi.js"></script>
+</body>
+</html>
