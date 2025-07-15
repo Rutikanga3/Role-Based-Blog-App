@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: skyblue;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 14px;
+    padding: 30px;
+}
+
+form {
+    background-color: white;
+    border-radius: 30px;
+    padding: 40px;
+    border-color: none;
+    width: 500px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 550px;
+    margin-top: 80px;
+}
+
+input {
+
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    width: 300px;
+    border-color: none;
+}
+
+input ::placeholder {
+    color: grey;
+    font-size: 14px;
+
+
+}
+
+textarea {
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+textarea ::placeholder {
+    color: grey;
+    font-size: 14px;
+}
+
+button {
+    background-color: rgb(5, 23, 81);
+    width: 400px;
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+    font-size: 14px;
+    font-weight: 200px;
+    border-color: none;
+    border-style: none;
+}
+
+#posts {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    margin-left: 550px;
+    
+}
+
+h3 {
+    font-size: 18px;
+    color: rgb(5, 23, 81);
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+img {
+    /* max-width: 100%; */
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+}
