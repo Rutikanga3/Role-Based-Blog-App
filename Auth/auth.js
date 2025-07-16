@@ -16,7 +16,7 @@
                     console.log("Login successful for user:", user.username);
                     alert("Login successful!");
                 if (user.role === "admin") {
-                    window.location.href = "dashboard.html";
+                    window.location.href = "admin.html";
                 } else {
                     window.location.href = "blog.html";
                 }
