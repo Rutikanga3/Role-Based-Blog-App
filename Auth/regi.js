@@ -19,9 +19,9 @@ function register() {
         registeredUsers.push(newUser);
         saveToLocalStorage("registeredUsers", registeredUsers);
         if (role === "admin") {
-            window.location.href = "admin.html";
+            window.location.href = "../Admin/admin.html";
         } else {
-            window.location.href = "index.html";
+            window.location.href = "../Blog/blog.html";
         }
         alert(`User registered successfully!\nName: ${username}\nRole: ${role}`);
     } else {

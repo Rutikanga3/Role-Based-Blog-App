@@ -1,11 +1,11 @@
 
 
 // Check if logged-in user is admin
-const loggedInUser = JSON.parse(localStorage.getItem('loggedInUser'));
+const loggedInUser = JSON.parse(localStorage.getItem('currentUser'));
 
-if (!loggedInUser || loggedInUser.role !== 'admin') {
+if (loggedInUser.role !== 'admin') {
   alert('Access denied. Admins only.');
-  window.location.href = 'Auth/regi.html'; // Redirect to login page
+  window.location.href = '../Auth/regi.html'; // Redirect to login page
 } else {
   // Set welcome message
   document.getElementById('welcomeMessage').textContent = `Welcome, ${loggedInUser.username} (Admin)`;

@@ -16,9 +16,9 @@
                     console.log("Login successful for user:", user.username);
                     alert("Login successful!");
                 if (user.role === "admin") {
-                    window.location.href = "admin.html";
+                    window.location.href = "../Admin/admin.html";
                 } else {
-                    window.location.href = "blog.html";
+                    window.location.href = "../Blog/blog.html";
                 }
                 }
                 
