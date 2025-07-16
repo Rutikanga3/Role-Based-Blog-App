@@ -11,7 +11,7 @@ if (!loggedInUser || loggedInUser.role !== 'admin') {
   document.getElementById('welcomeMessage').textContent = `Welcome, ${loggedInUser.username} (Admin)`;
 
   // Fetch all users from localStorage
-  const users = JSON.parse(localStorage.getItem('users')) || [];
+  const users = JSON.parse(localStorage.getItem('registeredUsers')) || [];
 
   // Render users in DOM
   const userListContainer = document.getElementById('userList');
