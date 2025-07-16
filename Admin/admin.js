@@ -5,7 +5,7 @@ const loggedInUser = JSON.parse(localStorage.getItem('loggedInUser'));
 
 if (!loggedInUser || loggedInUser.role !== 'admin') {
   alert('Access denied. Admins only.');
-  window.location.href = 'login.html'; // Redirect to login page
+  window.location.href = 'Auth/regi.html'; // Redirect to login page
 } else {
   // Set welcome message
   document.getElementById('welcomeMessage').textContent = `Welcome, ${loggedInUser.username} (Admin)`;
